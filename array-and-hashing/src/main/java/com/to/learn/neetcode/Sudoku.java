@@ -1,12 +1,7 @@
 package com.to.learn.neetcode;
 
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashSet;
-import java.util.List;
 import java.util.Set;
-import java.util.stream.Collectors;
-import java.util.stream.IntStream;
 
 /**
  * Determine if a 9 x 9 Sudoku board is valid. Only the filled cells need to be
