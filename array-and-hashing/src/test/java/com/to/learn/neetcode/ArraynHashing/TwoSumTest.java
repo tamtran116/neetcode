@@ -4,8 +4,6 @@ import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
-import com.to.learn.neetcode.ArraynHashing.TwoSum;
-
 public class TwoSumTest {
     @Test
     public void testTwoSum() {

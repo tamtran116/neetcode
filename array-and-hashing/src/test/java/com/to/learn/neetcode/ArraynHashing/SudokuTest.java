@@ -5,8 +5,6 @@ import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
-import com.to.learn.neetcode.ArraynHashing.Sudoku;
-
 public class SudokuTest {
     @Test
     public void testIsValidSudoku() {

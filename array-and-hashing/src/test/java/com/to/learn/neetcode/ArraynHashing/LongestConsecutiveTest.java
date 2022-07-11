@@ -4,8 +4,6 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import com.to.learn.neetcode.ArraynHashing.LongestConsecutive;
-
 public class LongestConsecutiveTest {
     @Test
     public void testLongestConsecutive() {
