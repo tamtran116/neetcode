@@ -1,10 +1,12 @@
-package com.to.learn.neetcode;
+package com.to.learn.neetcode.ArraynHashing;
 
 import static org.junit.Assert.assertTrue;
 
 import java.util.List;
 
 import org.junit.Test;
+
+import com.to.learn.neetcode.ArraynHashing.GroupAnagram;
 
 public class GroupAnagramTest {
     @Test

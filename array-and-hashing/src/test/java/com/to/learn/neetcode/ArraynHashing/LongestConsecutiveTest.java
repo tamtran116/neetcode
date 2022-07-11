@@ -1,8 +1,10 @@
-package com.to.learn.neetcode;
+package com.to.learn.neetcode.ArraynHashing;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
+
+import com.to.learn.neetcode.ArraynHashing.LongestConsecutive;
 
 public class LongestConsecutiveTest {
     @Test

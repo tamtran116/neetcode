@@ -1,4 +1,4 @@
-package com.to.learn.neetcode;
+package com.to.learn.neetcode.ArraynHashing;
 
 import java.util.ArrayList;
 

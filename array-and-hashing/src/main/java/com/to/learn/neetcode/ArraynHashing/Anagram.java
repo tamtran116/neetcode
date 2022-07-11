@@ -1,4 +1,4 @@
-package com.to.learn.neetcode;
+package com.to.learn.neetcode.ArraynHashing;
 
 /**
  * Given two strings s and t, return true if t is an anagram of s, and false

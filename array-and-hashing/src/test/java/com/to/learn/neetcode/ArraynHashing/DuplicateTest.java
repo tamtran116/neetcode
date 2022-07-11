@@ -1,9 +1,11 @@
-package com.to.learn.neetcode;
+package com.to.learn.neetcode.ArraynHashing;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
 
 import org.junit.Test;
+
+import com.to.learn.neetcode.ArraynHashing.Duplicate;
 
 
 /**
