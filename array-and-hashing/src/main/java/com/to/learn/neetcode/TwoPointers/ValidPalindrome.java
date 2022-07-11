@@ -36,6 +36,20 @@ import java.util.List;
 public class ValidPalindrome {
 
     public static boolean isPalindrome(String s) {
+
+        /**
+         * using string builder
+         */
+        StringBuilder content = new StringBuilder();
+        for(int i = 0; i < s.length(); i++) 
+            if(Character.isLetterOrDigit(s.charAt(i)))
+                content.append(s.charAt(i));
+        content = new StringBuilder(content.toString().toLowerCase());
+        String value = content.toString();
+        return value.equals(content.reverse().toString());
+
+        /**
+         * brute force
         // clean up extra char and lower case
         String clean = s.toLowerCase().replaceAll("[^a-z]*", "");
         // add to list of char to reverse
@@ -50,5 +64,6 @@ public class ValidPalindrome {
             reversed[i] = characters.get(i);
         }
         return clean.equals(new String(reversed));
+        */
     }
 }
