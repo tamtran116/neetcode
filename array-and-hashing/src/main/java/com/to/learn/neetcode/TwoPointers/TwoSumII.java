@@ -56,7 +56,7 @@ public class TwoSumII {
         Map<Integer, Integer> map = new HashMap<>();
         for (int j = 0; j < numbers.length; j++) {
             map.put(numbers[j], j);
-            // make sure when looping, ignore the case when target = 2 times of number so it will avoid getting the same index
+            // make sure when looping, ignore the case when target = 2 times of number so it will avoid getting the same indexu
             if ((target - 2*numbers[j]) != 0 && map.containsKey(target - numbers[j])) {
                 int[] result = new int[] { j + 1, map.get(target - numbers[j]) + 1 };
                 Arrays.sort(result);
