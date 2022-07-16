@@ -3,7 +3,6 @@ package com.to.learn.neetcode.TwoPointers;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.stream.IntStream;
 
 /**
  * Given a 1-indexed array of integers numbers that is already sorted in

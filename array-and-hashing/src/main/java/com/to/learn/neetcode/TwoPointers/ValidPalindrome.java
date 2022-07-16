@@ -1,8 +1,5 @@
 package com.to.learn.neetcode.TwoPointers;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
 
 /**
  * A phrase is a palindrome if, after converting all uppercase letters into
